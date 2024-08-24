@@ -1,0 +1,66 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(190, 255, 250);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul{
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 16px;
+  }
+  a{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+  }
+  img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid crimson;
+  }
+  .ImagemGalo {
+          text-align: center;
+          vertical-align: 10px;
+  }
+  h1{
+    text-align: center;
+    color: crimson;
+}
+h2{
+    text-align: center;
+}.container{
+    text-align: center;
+}
+.container a {
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.container a:hover{
+    background-color: blueviolet;
+}
+.CanalDoYoutube{
+    text-align: center;
+}
+
+
+.CanalDoYoutube a{
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.CanalDoYoutube a:hover{
+    background-color: blueviolet;
+}
+.video{
+    text-align: center;
+}
+iframe{
+    width: 800px;
+    height: 450px;
+    padding: 30px;
+}
